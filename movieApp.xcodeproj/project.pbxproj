@@ -54,14 +54,38 @@
 		FE0BAE2D2A25474700E5EC7A /* movieApp */ = {
 			isa = PBXGroup;
 			children = (
-				FE0BAE2E2A25474700E5EC7A /* AppDelegate.swift */,
-				FE0BAE302A25474700E5EC7A /* SceneDelegate.swift */,
-				FE0BAE322A25474700E5EC7A /* HomeViewController.swift */,
-				FE0BAE372A25474700E5EC7A /* Assets.xcassets */,
+				FE0BAE4F2A2567DC00E5EC7A /* App Delegate */,
+				FE0BAE532A25682600E5EC7A /* Home */,
+				FE0BAE522A25680E00E5EC7A /* Resource */,
 				FE0BAE392A25474700E5EC7A /* LaunchScreen.storyboard */,
 				FE0BAE3C2A25474700E5EC7A /* Info.plist */,
 			);
 			path = movieApp;
+			sourceTree = "<group>";
+		};
+		FE0BAE4F2A2567DC00E5EC7A /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				FE0BAE2E2A25474700E5EC7A /* AppDelegate.swift */,
+				FE0BAE302A25474700E5EC7A /* SceneDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		FE0BAE522A25680E00E5EC7A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FE0BAE372A25474700E5EC7A /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		FE0BAE532A25682600E5EC7A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FE0BAE322A25474700E5EC7A /* HomeViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
