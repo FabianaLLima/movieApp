@@ -12,6 +12,7 @@
 		FE0BAE332A25474700E5EC7A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0BAE322A25474700E5EC7A /* HomeViewController.swift */; };
 		FE0BAE382A25474700E5EC7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0BAE372A25474700E5EC7A /* Assets.xcassets */; };
 		FE0BAE3B2A25474700E5EC7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0BAE392A25474700E5EC7A /* LaunchScreen.storyboard */; };
+		FE0BAE562A2568E900E5EC7A /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0BAE552A2568E900E5EC7A /* MovieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FE0BAE372A25474700E5EC7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE0BAE3A2A25474700E5EC7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE0BAE3C2A25474700E5EC7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE0BAE552A2568E900E5EC7A /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				FE0BAE322A25474700E5EC7A /* HomeViewController.swift */,
+				FE0BAE552A2568E900E5EC7A /* MovieTableViewCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE0BAE332A25474700E5EC7A /* HomeViewController.swift in Sources */,
+				FE0BAE562A2568E900E5EC7A /* MovieTableViewCell.swift in Sources */,
 				FE0BAE2F2A25474700E5EC7A /* AppDelegate.swift in Sources */,
 				FE0BAE312A25474700E5EC7A /* SceneDelegate.swift in Sources */,
 			);
