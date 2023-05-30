@@ -8,6 +8,8 @@
 import UIKit
 
 class MovieTableViewCell: UITableViewCell {
+    
+    static let identifier: String = "MovieTableViewCell"
    
     let titleLabel: UILabel = {
         let label = UILabel()
